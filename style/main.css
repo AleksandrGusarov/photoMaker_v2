@@ -1,0 +1,60 @@
+/* @import url(global.css); */
+/* @import url(normalize.css); */
+@import url(hamburger.css);
+@import url(header.css);
+@import url(var.css);
+@import url(about.css);
+@import url(feedback.css);
+@import url(footer.css);
+
+@font-face {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/overpass-v12-latin_cyrillic-regular.woff2') format('woff2'), 
+       url('../fonts/overpass-v12-latin_cyrillic-regular.woff') format('woff'); 
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: var(--main-color);
+	color: #fff;
+	line-height: 1.5;
+	font-family: Overpass, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.container {
+	height: 1200px;
+	display:flex;
+	gap: 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.wrapper {
+  z-index: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 150px;
+}
+
+
+
+
+
+
